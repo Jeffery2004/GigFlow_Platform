@@ -1,0 +1,56 @@
+
+  container: {
+    minHeight: "100vh",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    background: "linear-gradient(135deg, #667eea, #764ba2)"
+  },
+  card: {
+    background: "#fff",
+    padding: "40px",
+    borderRadius: "12px",
+    width: "100%",
+    maxWidth: "380px",
+    boxShadow: "0 10px 30px rgba(0,0,0,0.15)"
+  },
+  title: {
+    marginBottom: "8px",
+    textAlign: "center"
+  },
+  subtitle: {
+    marginBottom: "24px",
+    textAlign: "center",
+    color: "#555",
+    fontSize: "14px"
+  },
+  input: {
+    width: "100%",
+    padding: "12px",
+    marginBottom: "14px",
+    borderRadius: "6px",
+    border: "1px solid #ccc",
+    fontSize: "14px",
+    outline: "none"
+  },
+  button: {
+    width: "100%",
+    padding: "12px",
+    backgroundColor: "#667eea",
+    color: "#fff",
+    border: "none",
+    borderRadius: "6px",
+    fontSize: "16px",
+    fontWeight: "bold",
+    cursor: "pointer"
+  },
+  footer: {
+    marginTop: "16px",
+    textAlign: "center",
+    fontSize: "14px"
+  },
+  link: {
+    color: "#667eea",
+    textDecoration: "none",
+    fontWeight: "bold"
+  }

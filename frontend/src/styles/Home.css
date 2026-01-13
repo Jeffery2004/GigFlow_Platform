@@ -1,0 +1,120 @@
+.home-container {
+  padding: 24px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.home-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.home-title {
+  font-size: 24px;
+}
+
+.home-search {
+  width: 100%;
+  max-width: 350px;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.home-search:focus {
+  border-color: #667eea;
+  outline: none;
+}
+
+.gig-card {
+  border: 1px solid #e0e0e0;
+  padding: 16px;
+  border-radius: 10px;
+  margin-bottom: 16px;
+  background: #fff;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.06);
+}
+
+.gig-title {
+  margin-bottom: 6px;
+}
+
+.gig-desc {
+  font-size: 14px;
+  color: #555;
+}
+
+.gig-status {
+  margin: 8px 0;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.gig-actions {
+  margin-top: 10px;
+}
+
+.btn {
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #667eea;
+  color: #fff;
+}
+
+.btn-secondary {
+  background-color: #f3f4f6;
+  color: #333;
+  margin-left: 10px;
+}
+
+.btn-primary:hover {
+  background-color: #5563d6;
+}
+
+.btn-secondary:hover {
+  background-color: #e5e7eb;
+}
+
+.empty-text {
+  color: #777;
+  margin-top: 20px;
+}
+.brand-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 24px;
+}
+
+.brand-title {
+  font-size: 34px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.brand-tagline {
+  font-size: 14px;
+  color: #555;
+  margin-top: 4px;
+}
+.btn-logout {
+  background-color: #ef4444;
+  color: white;
+  margin-left: 10px;
+}
+
+.btn-logout:hover {
+  background-color: #dc2626;
+}

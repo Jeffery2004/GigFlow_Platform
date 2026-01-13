@@ -1,0 +1,59 @@
+.place-bid-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f5f7fb;
+}
+
+.place-bid-card {
+  background: #ffffff;
+  padding: 32px;
+  width: 100%;
+  max-width: 450px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+}
+
+.place-bid-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.place-bid-textarea,
+.place-bid-input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 14px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.place-bid-textarea {
+  resize: none;
+  height: 120px;
+}
+
+.place-bid-textarea:focus,
+.place-bid-input:focus {
+  border-color: #667eea;
+  outline: none;
+}
+
+.place-bid-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #667eea;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.place-bid-button:hover {
+  background-color: #5563d6;
+}

@@ -1,0 +1,54 @@
+.bids-container {
+  padding: 24px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.bids-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+].bid-card {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 14px;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+}
+
+.bid-text {
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+.bid-status {
+  font-weight: bold;
+  margin-top: 6px;
+}
+
+.bid-actions {
+  margin-top: 10px;
+}
+
+.hire-button {
+  padding: 8px 14px;
+  background-color: #667eea;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.hire-button:hover {
+  background-color: #5563d6;
+}
+
+.status-hired {
+  color: green;
+}
+
+.status-rejected {
+  color: red;
+}
