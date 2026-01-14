@@ -80,17 +80,16 @@ Ensure you have the following installed:
   - Local MongoDB server
 - **Git**
 
-### Backend Setup
+### ⚙️Backend Setup
 cd backend
-
 npm install
-
 npm run dev
 
-### Frontend Setup
+### 🌐Frontend Setup
 cd frontend
 
 npm install
 
 npm run dev
+
 
