@@ -63,19 +63,25 @@ When a client hires a freelancer:
 
 ---
 
-## Running the project Locally
-Clone the repository:
-git clone https://github.com/Jeffery2004/GigFlow_Platform.git
-cd GigFlow_Platform
+## ▶️ Running the Project Locally
 
-Start Backend:
-cd backend
-npm install
-npm run dev
+Follow the steps below to run the **GigFlow** full-stack application on your local machine.
 
-Start frontend:
-cd frontend
-npm install
-npm run dev
+---
 
+### 🧩 Prerequisites
+
+Ensure you have the following installed:
+
+- **Node.js** (v18+ recommended)  
+  https://nodejs.org
+- **MongoDB**
+  - MongoDB Atlas (cloud) **or**
+  - Local MongoDB server
+- **Git**
+
+### Backend Setup
+-cd bckend
+-npm install
+-npm run dev
 
