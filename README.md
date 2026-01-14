@@ -1,0 +1,81 @@
+# GigFlow – Freelance Job Bidding Platform
+
+GigFlow is a full-stack freelance marketplace where **clients post gigs**, **freelancers place bids**, and **clients hire freelancers** with **real-time notifications** using Socket.io.
+
+This project demonstrates authentication, authorization, REST APIs, real-time communication, and a modern React UI.
+
+---
+
+## ✨ Features
+
+### 🔐 Authentication
+- User registration & login
+- JWT-based authentication using HTTP-only cookies
+- Protected routes (frontend + backend)
+
+### 📌 Gigs
+- Clients can post new gigs
+- View all available gigs
+- Search gigs by title
+- Gig status lifecycle: `open → assigned`
+
+### 💼 Bids
+- Freelancers can place bids on gigs
+- View all bids for a gig
+- Bid statuses: `pending`, `hired`, `rejected`
+- Only the gig owner can hire a freelancer
+
+### 🧠 Hiring Logic
+When a client hires a freelancer:
+- Gig status changes to **assigned**
+- Selected bid becomes **hired**
+- All other bids automatically become **rejected**
+
+### ⚡ Real-time Notifications (Socket.io)
+- Freelancers receive an **instant notification**:
+  > _“You have been hired for [Project Name]!”_
+- No page refresh required
+
+### 🎨 Frontend
+- Built with **React + Vite**
+- Clean, responsive UI
+- Separate CSS files for each page
+- Logout & session persistence
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend
+- React (Vite)
+- React Router
+- Axios
+- Socket.io-client
+- CSS
+
+### Backend
+- Node.js
+- Express.js
+- MongoDB + Mongoose
+- JWT Authentication
+- Socket.io
+- bcryptjs
+
+---
+
+## Running the project Locally
+Clone the repository:
+git clone https://github.com/Jeffery2004/GigFlow_Platform.git
+cd GigFlow_Platform
+
+Start Backend:
+cd backend
+npm install
+npm run dev
+
+Start frontend:
+cd frontend
+npm install
+npm run dev
+
+
