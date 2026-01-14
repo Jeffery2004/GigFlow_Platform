@@ -81,7 +81,10 @@ Ensure you have the following installed:
 - **Git**
 
 ### Backend Setup
--cd bckend
--npm install
--npm run dev
+cd bckend
+
+npm install
+
+npm run dev
+
 
