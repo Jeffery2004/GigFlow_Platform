@@ -86,11 +86,10 @@ Ensure you have the following installed:
 - npm run dev
 
 ### 🌐Frontend Setup
-cd frontend
+- cd frontend
+- npm install
+- npm run dev
 
-npm install
-
-npm run dev
 
 
 
